@@ -63,7 +63,9 @@ body {
 #reply-control .reply-to {
 	.btn {
 		&:hover {
-			background-color: transparent;
+			i {
+				border: none;
+			}
 		}
 
 		i {
