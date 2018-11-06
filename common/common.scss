@@ -63,7 +63,10 @@ body {
 #reply-control .reply-to {
 	.btn {
 		&:hover {
+			background-color: transparent;
+
 			i {
+				background-color: $primary-color;
 				border-color: $primary-color;
 				color: $white;
 			}
