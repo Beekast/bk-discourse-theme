@@ -1,4 +1,5 @@
 {
   "name": "Beekast community theme",
-  "about_url": "https://community.beekast.com"
+  "about_url": "https://community.beekast.com",
+  "license_url": "https://github.com/Beekast/bk-discourse-theme/blob/master/LICENSE"
 }
