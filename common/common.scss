@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+
+$font-family: 'Montserrat', sans-serif;
+
+// Custom Colors
+$primary-color: #5171F9;
+
+$white: #FFFFFF;
+$gray-dark: #1B2432;
+
+body {
+	font-family: $font-family;
+}
+
+//
+// Buttons
+// -------
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+	border: 2px solid $primary-color;
+	border-radius: 0.3rem;
+	height: 2.5rem;
+	padding: 0 1rem;
+	color: $primary-color !important;
+	text-transform: uppercase;
+	font-size: 0.9em !important;
+	font-weight: 600 !important;
+	transition: all 0.3s ease;
+
+	&:hover {
+		background-color: $primary-color !important;
+		color: $white !important;
+	}
+
+	&.btn-primary {
+		background-color: $primary-color;
+		color: $white !important;
+
+		&:hover {
+			background-color: darken($primary-color, 5%) !important;
+		}
+	}
+
+	.d-icon {
+		opacity: 1;
+	}
+}
+
+.d-editor-button-bar button {
+	color: $primary-color !important;
+	height: auto;
+	border: none;
+	border-radius: 0;
+	
+	&:hover {
+		color: $white !important;
+	}
+}
+
+//
+// Inputs
+// -------
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+	border: 1px solid #BBB;
+	height: 2.5rem;
+	border-radius: 0.3rem;
+}
+
+.select-kit.combo-box .select-kit-header {
+	border: 1px solid #BBB;
+	height: 2.5rem;
+	border-radius: 0.3rem;
+}
+
+.d-editor-textarea-wrapper {
+	border: 1px solid #BBB;
+	border-radius: 0.3rem;
+}
+
+//
+// Alert
+// ------
+.alert {
+	&.alert-info {
+		background-color: lighten($primary-color, 30%);
+	}
+}
+
+//
+// Badges
+// ------
+.badge-wrapper {
+	font-weight: 400;
+
+	&.bullet .badge-category-parent-bg,
+	&.bullet .badge-category-bg {
+		border-radius: 50%;
+	}
+}
+
+//
+// Header
+// ------
+.d-header {
+	#current-user {
+		margin-left: 1rem;
+	}
+}
+
+.d-header .icons .icon {
+	i {
+		font-size: 1.5em;
+	}
+}
+.d-header .icons .icon:hover, 
+.drop-down-visible .d-header .icons .active .icon {
+	background: none;
+	border-color: transparent;
+	color: $gray-dark;
+
+	i {
+		color: $gray-dark;
+	}
+}
+
+//
+// Banner
+// -------
+#banner {
+	background: $white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 0.3rem;
+	margin-bottom: 2rem;
+	padding: 1rem 2rem;
+
+	.close {
+		font-size: 1.3em;
+		margin-top: -5px;
+		margin-right: -10px;
+		color: #AAA;
+	}
+}
+
+.nav-pills { 
+	> li {
+		display: inline-block;
+		float: none;
+		margin: 0;
+		padding-bottom: 0.5rem;
+
+		&.active {
+			border-bottom: 2px solid $primary-color;
+		}
+
+		> a,
+		&.active > a { 
+			background: transparent;
+			color: $gray-dark;
+			line-height: 1.75;
+			padding: 0 1rem;
+
+			&:hover {
+				background: none;
+				color: $primary-color;
+				text-decoration: none;
+			}
+		}
+
+		&.active > a {
+			color: $primary-color;
+			font-weight: 600;
+		}
+	}
+}
+
+// all categories
+.select-kit.combo-box .select-kit-header {
+	font-weight: 300;
+}
+
+//
+// Categories
+// -------
+.category-list tbody .category {
+	margin: 1rem 0;
+	padding-left: 1rem;
+	display: block;
+	border-left-width: 4px;
+}
