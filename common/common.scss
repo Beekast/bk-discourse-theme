@@ -64,7 +64,8 @@ body {
 	.btn {
 		&:hover {
 			i {
-				border: none;
+				border-color: $primary-color;
+				color: $white;
 			}
 		}
 
