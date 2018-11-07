@@ -169,6 +169,15 @@ a:active {
 }
 
 //
+// Badges notification
+// -------
+.badge-notification {
+	.unread-private-messages {
+		background-color: $primary-color;
+	}
+}
+
+//
 // Global rules
 // -------
 
