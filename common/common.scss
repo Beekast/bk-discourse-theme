@@ -260,6 +260,7 @@ body {
 // all categories
 .select-kit.combo-box .select-kit-header {
 	font-weight: 300;
+	border: none;
 }
 
 //
@@ -295,11 +296,12 @@ body {
 	
 	> .column:last-child {
 		flex: 1 1 35%;
-		background-color: $gray-light;
-		padding: 0.5rem 1rem;
 	}
 
 	.latest-topic-list {
+		background-color: $gray-light;
+		padding: 0.5rem 1rem 0;
+
 		.latest-topic-list-item {
 			padding: 1em 0;
 			font-size: 0.9em;
@@ -320,6 +322,12 @@ body {
 					content: '\f086';
 					margin-right: 5px;
 					
+				}
+			}
+
+			.main-link {
+				.discourse-tags {
+					display: none;
 				}
 			}
 		}
