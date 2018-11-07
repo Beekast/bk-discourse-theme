@@ -317,14 +317,14 @@ body {
 		padding: 0.5rem 1rem 0;
 		border-radius: 0.3rem;
 
+		.table-heading {
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+
 		.latest-topic-list-item {
 			padding: 1em 0;
 			font-size: 0.9em;
-
-			.table-heading {
-				font-weight: 500;
-				text-transform: uppercase;
-			}
 
 			.topic-poster {
 				width: 40px;
@@ -341,6 +341,7 @@ body {
 
 					content: '\f086';
 					margin-right: 5px;
+					color: #c3d0e0;
 					
 				}
 			}
