@@ -17,15 +17,13 @@ body {
 // -------
 .btn {
 	background-color: transparent;
-	border: 2px solid $primary-color;
+	border: 1px solid $primary-color;
 	border-radius: 0.3rem;
 	height: 2.5rem;
 	line-height: 2.5rem;
 	padding: 0 1rem;
 	color: $primary-color !important;
-	text-transform: uppercase;
 	font-size: 0.9em !important;
-	font-weight: 600 !important;
 	transition: all 0.3s ease;
 
 	&:hover {
@@ -36,6 +34,8 @@ body {
 	&.btn-primary {
 		background-color: $primary-color;
 		color: $white !important;
+		font-weight: 600 !important;
+		text-transform: uppercase;
 
 		&:hover {
 			background-color: darken($primary-color, 5%) !important;
