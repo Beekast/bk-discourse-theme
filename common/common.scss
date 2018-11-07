@@ -275,10 +275,23 @@ a:active {
 	
 	> .column:last-child {
 		flex: 1 1 35%;
+		background-color: $gray-light;
+		padding: 0.5rem 1rem;
 	}
 
 	.latest-topic-list {
-		background-color: $gray-light;
-		padding: 1rem;
+		.latest-topic-list-item {
+			padding: 1em 0;
+			font-size: 0.9em;
+
+			.topic-poster {
+				width: 40px;
+
+				img.avatar {
+					width: 30px;
+					height: 30px;
+				}
+			}
+		}
 	}
 }
