@@ -7,7 +7,7 @@ $primary-color: #5171F9;
 
 $white: #FFFFFF;
 $gray-dark: #1B2432;
-$gray-light: #EBF0F6;
+$gray-light: #eff3f8;
 
 body {
 	font-family: $font-family;
@@ -290,6 +290,14 @@ a:active {
 				img.avatar {
 					width: 30px;
 					height: 30px;
+				}
+			}
+
+			.topic-stats {
+				.badge-posts .number:before {
+					@extend .fa;
+
+					content: '\f086';
 				}
 			}
 		}
