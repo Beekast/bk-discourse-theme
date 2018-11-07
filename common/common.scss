@@ -336,17 +336,28 @@ body {
 			}
 
 			.topic-stats {
-				.badge-posts .number {
-					color: #a3afbd;
-					font-weight: 500;
+				.posts-map {
+					margin-bottom: 5px;
 
-					&:before {
-						@extend %fa;
+					.badge-posts .number {
+						color: #8c99a7;
+						font-weight: 500;
 	
-						content: '\f086';
-						margin-right: 5px;
-						color: #c3d0e0;
-						
+						&:before {
+							@extend %fa;
+		
+							content: '\f086';
+							margin-right: 5px;
+							color: #c3d0e0;
+							
+						}
+					}
+				}
+
+				.topic-last-activity {
+					a {
+						font-style: italic;
+						color: #b8bfca;
 					}
 				}
 			}
