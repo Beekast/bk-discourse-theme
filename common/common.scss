@@ -31,7 +31,8 @@ body {
 		color: $white !important;
 	}
 
-	&.btn-primary {
+	&.btn-primary,
+	&#create-topic {
 		background-color: $primary-color;
 		color: $white !important;
 		font-weight: 600 !important;
