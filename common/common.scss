@@ -1,16 +1,28 @@
+//
+// Fonts
+// -------
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
-
 $font-family: 'Montserrat', sans-serif;
 
-// Custom Colors
+//
+// Colors
+// -------
 $primary-color: #5171F9;
-
 $white: #FFFFFF;
+$black: #000000;
 $gray-dark: #1B2432;
 $gray-light: #eff3f8;
 
-body {
-	font-family: $font-family;
+//
+// Font awesome
+// -------
+%fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 //
@@ -155,6 +167,14 @@ a:active {
 }
 
 //
+// Global rules
+// -------
+
+body {
+	font-family: $font-family;
+}
+
+//
 // Pages
 // ------
 .body-page {
@@ -295,13 +315,11 @@ a:active {
 
 			.topic-stats {
 				.badge-posts .number:before {
+					@extend %fa;
+
 					content: '\f086';
-					display: inline-block;
-					font: normal normal normal 14px/1 FontAwesome;
-					font-size: inherit;
-					text-rendering: auto;
-					-webkit-font-smoothing: antialiased;
-					-moz-osx-font-smoothing: grayscale;
+					margin-right: 5px;
+					
 				}
 			}
 		}
