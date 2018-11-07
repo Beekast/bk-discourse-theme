@@ -7,6 +7,7 @@ $primary-color: #5171F9;
 
 $white: #FFFFFF;
 $gray-dark: #1B2432;
+$gray-light: #EBF0F6;
 
 body {
 	font-family: $font-family;
@@ -249,10 +250,35 @@ a:active {
 		font-weight: 500;
 	}
 
+	.topics {
+		text-align: center;
+	}
+
 	tbody .category {
 		margin: 1rem 0;
 		padding-left: 1rem;
 		display: block;
 		border-left-width: 2px;
+	}
+}
+
+//
+// Categories & Latest
+// -------
+.categories-and-latest {
+	display: flex;
+	flex-flow: row;
+
+	> .column:first-child {
+		flex: 1 1 80%;
+	}
+	
+	> .column:last-child {
+		flex: 1 1 20%;
+	}
+
+	.latest-topic-list {
+		background-color: $gray-light;
+		padding: 1rem;
 	}
 }
