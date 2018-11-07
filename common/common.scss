@@ -149,6 +149,8 @@ a:active {
 // Alert
 // ------
 .alert {
+	border-radius: 0.3rem;
+
 	&.alert-info {
 		background-color: lighten($primary-color, 30%);
 	}
@@ -368,4 +370,14 @@ body {
 			}
 		}
 	}
+}
+
+//
+// Create topic popup
+// -------
+.composer-popup {
+	background: $gray-light;
+	border: 1px solid #DDD;
+	border-radius: 0.3rem;
+	padding: 1rem;
 }
