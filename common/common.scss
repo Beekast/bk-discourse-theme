@@ -180,12 +180,14 @@ a:active {
 //
 // Tags
 // ------
-.discourse-tag {
-	&.box {
-		background-color: $primary-color;
-		color: $white;
-		border-radius: 1rem;
-		font-weight: 600;
+.discourse-tags {
+	.discourse-tag {
+		&.box {
+			background-color: $primary-color;
+			color: $white;
+			border-radius: 1rem;
+			font-weight: 600;
+		}
 	}
 
 	.list-vote-count {
