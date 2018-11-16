@@ -194,6 +194,14 @@ a:active {
 			font-weight: 500;
 			margin-right: 0.3rem;
 			font-size: 0.9em;
+
+			&:before {
+				@extend %fa;
+	
+				content: '\f02b';
+				margin-right: 5px;
+				
+			}
 		}
 	}
 
@@ -204,14 +212,6 @@ a:active {
 		border-radius: 0.3rem;
 		padding: 2px 8px;
 		font-size: 0.9em;
-
-		&:before {
-			@extend %fa;
-
-			content: '\f00c';
-			margin-right: 5px;
-			
-		}
 	}
 }
 
