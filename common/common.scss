@@ -192,7 +192,6 @@ a:active {
 			color: $white;
 			border-radius: 1rem;
 			font-weight: 500;
-			top: unset;
 			margin-right: 0.3rem;
 		}
 	}
@@ -425,4 +424,12 @@ body {
 	border: 1px solid #DDD;
 	border-radius: 0.3rem;
 	padding: 1rem;
+}
+
+//
+// Latest
+// -------
+.topic-list-item .discourse-tags .discourse-tag.box {
+	position: unset;
+	top: unset;
 }
