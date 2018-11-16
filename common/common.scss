@@ -189,7 +189,7 @@ a:active {
 	.discourse-tag {
 		&.box {
 			background-color: $primary-color !important;
-			color: $white;
+			color: $white !important;
 			border-radius: 1rem;
 			font-weight: 500;
 			margin-right: 0.3rem;
