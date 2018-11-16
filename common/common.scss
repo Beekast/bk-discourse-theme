@@ -181,12 +181,19 @@ a:active {
 // Tags
 // ------
 .discourse-tags {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 0.3rem;
+
 	.discourse-tag {
 		&.box {
 			background-color: $primary-color;
 			color: $white;
 			border-radius: 1rem;
-			font-weight: 600;
+			font-weight: 500;
+			top: unset;
+			margin-right: 0.3rem;
 		}
 	}
 
@@ -404,12 +411,6 @@ body {
 						font-style: italic;
 						color: #b8bfca;
 					}
-				}
-			}
-
-			.main-link {
-				.discourse-tags {
-					margin-top: 0.3rem;
 				}
 			}
 		}
