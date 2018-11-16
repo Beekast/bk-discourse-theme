@@ -188,11 +188,12 @@ a:active {
 
 	.discourse-tag {
 		&.box {
-			background-color: $primary-color;
+			background-color: $primary-color !important;
 			color: $white;
 			border-radius: 1rem;
 			font-weight: 500;
 			margin-right: 0.3rem;
+			font-size: 0.9em;
 		}
 	}
 
