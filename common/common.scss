@@ -178,6 +178,27 @@ a:active {
 }
 
 //
+// Tags
+// ------
+.discourse-tag {
+	&.box {
+		background-color: $primary-color;
+		color: $white;
+		border-radius: 1rem;
+		font-weight: 600;
+	}
+
+	.list-vote-count {
+		background-color: #98a5b3;
+		color: $white;
+		font-weight: 300;
+		border-radius: 0.3rem;
+		padding: 2px 8px;
+		font-size: 0.9em;
+	}
+}
+
+//
 // Global rules
 // -------
 
@@ -386,7 +407,7 @@ body {
 
 			.main-link {
 				.discourse-tags {
-					display: none;
+					margin-top: 0.3rem;
 				}
 			}
 		}
