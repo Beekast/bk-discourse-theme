@@ -20,6 +20,7 @@ $gray-light: #eff3f8;
 
 %fa {
 	font-family: "Font Awesome 5 Free";
+	font-size: 12px;
 	font-weight: 900;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
@@ -205,6 +206,7 @@ a:active {
 	
 				content: '\f02b';
 				margin-right: 5px;
+				font-size: 10px;
 				
 			}
 		}
