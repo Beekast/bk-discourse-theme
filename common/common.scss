@@ -476,10 +476,10 @@ body {
 .bk-banner {
 	display: none;
 	background-color: $primary-color;
-	margin-top: -1.3125em;
-	margin-bottom: 1.25em;
-	margin-left: -8px;
-	margin-right: -8px;
+	margin-top: -2rem;
+    margin-bottom: 2rem;
+	margin-left: 0;
+	margin-right: 0;
 
 	&.bk-banner--full-width {
 		width: 100vw;
@@ -492,7 +492,7 @@ body {
 
 
 	.bk-banner__intro {
-		// background: url(https://discourse-cdn-sjc1.com/woot/uploads/default/original/1X/36d8842….svg);
+		background: url('https://beekast-discourse-files.s3.dualstack.eu-west-1.amazonaws.com/original/1X/a67956b624a9750e866cc991a68e5ebf79098b01.png');
 		height: 16vw;
 		min-height: 225px;
 		width: 100%;
