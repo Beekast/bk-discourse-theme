@@ -7,7 +7,10 @@ $font-family: 'Montserrat', sans-serif;
 //
 // Colors
 // -------
-$primary-color: #2b2761;
+$logo-color-primary: #2b2761;
+$logo-color-secondary: #f39324;
+
+$primary-color: $logo-color-primary;
 $white: #FFFFFF;
 $black: #000000;
 $gray-dark: #1B2432;
@@ -81,6 +84,12 @@ h6 {
 	.d-icon {
 		opacity: 1;
 		color: $primary-color;
+	}
+
+	.button.ok,
+	.button.cancel {
+		color: $white !important;
+		border: none;
 	}
 }
 
@@ -445,6 +454,12 @@ body {
 	border: 1px solid #DDD;
 	border-radius: 0.3rem;
 	padding: 1rem;
+}
+
+.topic.open {
+	.grippie {
+		background-color: $logo-color-secondary;
+	}
 }
 
 //
