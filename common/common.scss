@@ -469,3 +469,44 @@ body {
 	position: unset;
 	top: unset;
 }
+
+//
+// Bk banner
+// -------
+.bk-banner {
+	display: none;
+	background-color: $primary-color;
+	margin-top: -1.3125em;
+	margin-bottom: 1.25em;
+	margin-left: -8px;
+	margin-right: -8px;
+
+	&.bk-banner--full-width {
+		width: 100vw;
+		position: relative;
+		left: 50%;
+		right: 50%;
+		margin-left: -50vw;
+		margin-right: -50vw;
+	}
+
+
+	.bk-banner__intro {
+		// background: url(https://discourse-cdn-sjc1.com/woot/uploads/default/original/1X/36d8842….svg);
+		height: 16vw;
+		min-height: 225px;
+		width: 100%;
+		text-align: center;
+		margin: 80px auto 0 auto;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		background-position: top center;
+		max-width: 1200px;
+	}
+}
+
+html body.categories-list .bk-banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
