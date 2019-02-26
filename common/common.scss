@@ -7,7 +7,7 @@ $font-family: 'Montserrat', sans-serif;
 //
 // Colors
 // -------
-$primary-color: #5171F9;
+$primary-color: #2b2761;
 $white: #FFFFFF;
 $black: #000000;
 $gray-dark: #1B2432;
@@ -72,10 +72,15 @@ h6 {
 		&:hover {
 			background-color: darken($primary-color, 5%) !important;
 		}
+
+		.d-icon {
+			color: $white;
+		}
 	}
 
 	.d-icon {
 		opacity: 1;
+		color: $primary-color;
 	}
 }
 
