@@ -492,12 +492,14 @@ body {
 
 
 	.bk-banner__intro {
-		background: url($header);
-		height: 20rem;
-		width: 100%;
-		background-size: auto 100%;
-		background-repeat: no-repeat;
-		background-position: top center;
+		@if variable-exists($header) {
+			background: url($header);
+			height: 20rem;
+			width: 100%;
+			background-size: auto 100%;
+			background-repeat: no-repeat;
+			background-position: top center;
+		}
 	}
 }
 
