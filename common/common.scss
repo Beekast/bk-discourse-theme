@@ -10,6 +10,8 @@ $font-family: 'Montserrat', sans-serif;
 $logo-color-primary: #8381ee;
 $logo-color-secondary: #f39324;
 
+$header-background-color: #2b2761;
+
 $primary-color: $logo-color-primary;
 $white: #FFFFFF;
 $black: #000000;
@@ -475,7 +477,7 @@ body {
 // -------
 .bk-banner {
 	display: none;
-	background-color: $primary-color;
+	background-color: $header-background-color;
 	margin-top: -2rem;
     margin-bottom: 2rem;
 	margin-left: 0;
