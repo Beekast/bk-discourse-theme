@@ -508,3 +508,15 @@ html body.categories-list .bk-banner {
 	align-items: center;
 	justify-content: center;
 }
+
+
+//
+// Mobile rules
+// -------
+@media screen and (max-width: 640px) {
+	.bk-banner {
+		.bk-banner__intro {
+			height: 8rem;
+		}
+	}
+}
