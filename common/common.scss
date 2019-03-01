@@ -492,7 +492,7 @@ body {
 
 
 	.bk-banner__intro {
-		background: url('https://beekast-discourse-files.s3.dualstack.eu-west-1.amazonaws.com/original/1X/78b11420067f41286d770b3afe6184c448f41c4c.png');
+		background: url($header);
 		height: 20rem;
 		width: 100%;
 		background-size: auto 100%;
