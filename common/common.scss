@@ -509,6 +509,17 @@ html body.categories-list .bk-banner {
 	justify-content: center;
 }
 
+//
+// Tablet rules
+// -------
+@media screen and (max-width: 1024px) {
+	.bk-banner {
+		.bk-banner__intro {
+			height: 10rem;
+		}
+	}
+}
+
 
 //
 // Mobile rules
