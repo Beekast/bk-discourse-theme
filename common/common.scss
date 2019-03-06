@@ -483,7 +483,7 @@ body {
 	display: none;
 	background-color: $header-background-color;
 	margin-top: -2rem;
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
 	margin-left: 0;
 	margin-right: 0;
 
@@ -507,7 +507,8 @@ body {
 	}
 }
 
-html body.categories-list .bk-banner {
+html body.categories-list .bk-banner,
+html body.navigation-topics .bk-banner {
 	display: flex;
 	align-items: center;
 	justify-content: center;
