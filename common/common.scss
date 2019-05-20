@@ -289,9 +289,11 @@ body {
 #banner {
 	background: $white;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-left: 3px solid $primary-color;
 	border-radius: 0.3rem;
 	margin-bottom: 2rem;
 	padding: 1rem 2rem;
+	max-height: auto;
 
 	.close {
 		font-size: 1.3em;
