@@ -1,0 +1,22 @@
+<script>
+
+	(function(){
+	
+	var CategoryList = require('discourse/models/category-list').default;
+	
+	CategoryList.reopenClass({
+	  categoriesFrom(store, result) {
+		let categories = this._super(store,result);
+		categories.forEach(function(c){
+		  c.stat = `<span class="value">${c.topics_all_time}</span>`;
+		  c.statTitle = I18n.t("categories.topic_sentence", { count: c.topics_all_time });
+		  c.pickAll = true;
+		});
+		return categories;
+	  }
+	
+	});   
+	
+	})();
+	 
+	</script>
