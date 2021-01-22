@@ -228,7 +228,9 @@ a:active {
 		}
 	}
 
-	.list-vote-count {
+	.list-vote-count,
+	.list-vote-count:hover,
+	.list-vote-count:visited {
 		background-color: $primary-color;
 		color: $white;
 		font-weight: 500;
@@ -423,6 +425,13 @@ body {
 				img.avatar {
 					width: 30px;
 					height: 30px;
+				}
+
+				.avatar-flair {
+					bottom: -4px;
+					right: 4px;
+					width: 18px;
+					height: 18px;
 				}
 			}
 
